@@ -83,6 +83,7 @@ const MapView: React.FC<MapViewProps> = ({ airport }) => {
         mapInstanceRef.current = null
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [airport])
 
   return (
