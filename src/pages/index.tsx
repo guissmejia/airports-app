@@ -29,8 +29,8 @@ const Index: React.FC = () => {
             <Plane className="h-14 w-14 text-blue-500" />
             <div className="absolute -inset-1 bg-blue-500/20 rounded-full blur-xl animate-pulse" />
           </div>
-          <div className="w-full max-w-[80%] mx-auto">
-          <MainLogo/>
+          <div className="w-full max-w-[80%] mx-auto md:max-w-[55%] sm:max-w-[100%]">
+            <MainLogo />
           </div>
         </section>
 
@@ -69,7 +69,6 @@ const Index: React.FC = () => {
                     ></div>
                   ))
               : filteredAirports
-                  .slice(0, 6)
                   .map((airport) => (
                     <AirportCard key={airport.flight?.iata} airport={airport} />
                   ))}
