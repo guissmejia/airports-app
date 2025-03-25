@@ -1,6 +1,6 @@
 # Sky Connect Explorer
 
-### ✨ [Sky Connect Explorer]()
+### ✨ [Sky Connect Explorer](airports-app-khaki.vercel.app)
 
 ### Pre-requirements 📋
 
@@ -36,6 +36,8 @@
 ```shell
   yarn dev
 ```
+
+One of the airports with the most complete information is: [http://localhost:3000/airport/GJ8680](http://localhost:3000/airport/GJ8680)
 
 ## Deployment 📦
 
