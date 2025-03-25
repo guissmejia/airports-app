@@ -9,8 +9,11 @@ const nextConfig = {
   compress: true,
   env: {
     REACT_APP_HOST_DOMAIN: process.env.REACT_APP_HOST_DOMAIN,
-    REACT_APP_BACKEND_API_URL: process.env.REACT_APP_BACKEND_API_URL,
+    REACT_APP_AVIATION_STACK_API_KEY:
+      process.env.REACT_APP_AVIATION_STACK_API_KEY,
+    REACT_APP_AVIATION_STACK_API_URL:
+      process.env.REACT_APP_AVIATION_STACK_API_URL,
   },
-};
+}
 
 module.exports = withBundleAnalyzer(nextConfig);
