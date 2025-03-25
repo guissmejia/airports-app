@@ -1,40 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Sky Connect Explorer
 
-## Getting Started
+### ✨ [Sky Connect Explorer]()
 
-First, run the development server:
+### Pre-requirements 📋
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. NodeJS **22.14.0** or higher
+2. NPM **10.9.2** or higher
+3. Yarn **1.22.22** or higher
+
+### Installation 🔧
+
+1. Clone the repository
+
+```shell
+  git clone <repository>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Switch to main branch
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```shell
+  git checkout main
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Install dependencies
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+```shell
+  yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Create an .env file in the project root with the environment variables assigned in the .env.enxample file for local development.
 
-## Learn More
+5. Runs the app in the development mode.\
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To learn more about Next.js, take a look at the following resources:
+```shell
+  yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## Deployment 📦
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. To compile, the following command must be executed, Next.js automatically builds the application in the .build folder:
 
-## Deploy on Vercel
+```shell
+  yarn build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Stack 🛠️
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- [Yarn](https://yarnpkg.com/) - Dependency handler.
+- [Next.js](https://nextjs.org/) - JavaScript Framework for the Frontend based on React.js.
+- [Zustand](https://zustand-demo.pmnd.rs/) - Package for easier handling of state app logic.
+- [TypeScript](https://www.typescriptlang.org/) - Strongly typed programming language that builds on JavaScript.
